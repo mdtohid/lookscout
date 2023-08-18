@@ -1,0 +1,4 @@
+.navbarBg{
+    background: #437EF7;
+    border-bottom: 1px solid var(--primary-400, #648EF7);
+}
