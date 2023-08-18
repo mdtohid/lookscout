@@ -5,7 +5,7 @@ import './Hero.css';
 const Hero = () => {
     return (
         <div className='flex flex-col-reverse lg:flex-row text-white heroImgBg px-4 lg:px-0 lg:ps-20 items-center justify-between'>
-            <div className='w-full md:w-10/12 lg:w-5/12'>
+            <div className='w-full md:w-10/12 lg:w-5/12 pb-10 lg:pb-5'>
                 <h1 className='text-5xl font-semibold'>
                     Your Supercharged Design Workflow.
                 </h1>
