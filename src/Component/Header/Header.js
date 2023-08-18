@@ -5,18 +5,18 @@ import './Header.css';
 const Header = () => {
     const menuItem =
         <>
-            <li><a>Home</a></li>
+            <li><a className='bg-transparent hover:bg-[#437EF7] hover:text-white border-0  px-5'>Home</a></li>
             <li tabIndex={0}>
                 <details>
-                    <summary>Our Products</summary>
-                    <ul className="p-2">
+                    <summary className='bg-transparent hover:bg-[#437EF7] hover:text-white border-0  px-5'>Our Products</summary>
+                    <ul className="p-2 text-black">
                         <li><a>Submenu 1</a></li>
                         <li><a>Submenu 2</a></li>
                     </ul>
                 </details>
             </li>
-            <li><a>Resources</a></li>
-            <li><a>Contacts</a></li>
+            <li><a className='bg-transparent hover:bg-[#437EF7] hover:text-white border-0  px-5'>Resources</a></li>
+            <li><a className='bg-transparent hover:bg-[#437EF7] hover:text-white border-0  px-5'>Contacts</a></li>
         </>
 
     return (
@@ -28,13 +28,13 @@ const Header = () => {
             </div>
 
             <div className="hidden lg:flex ms-16 w-full justify-between">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 text-white">
                     {menuItem}
                 </ul>
 
                 <div className="">
-                    <a className="btn me-4">Login</a>
-                    <a className="btn">Sign up</a>
+                    <button className='btn bg-transparent hover:bg-[#437EF7] border-0 text-white px-5 me-4'>Login</button>
+                    <button className='btn bg-transparent hover:bg-[#437EF7] border-0 text-white px-5'>Sign up</button>
                 </div>
             </div>
 
